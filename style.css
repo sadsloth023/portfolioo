@@ -42,9 +42,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: 	#888888;
+    color: 	black;
     margin: 0%;
-    padding: 0%;
+    padding: 20pt 0 0;
     border: 0%;
 }
 
@@ -61,9 +61,37 @@ h1{
     border: 0%;
 }
 
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialimg{
+    max-width: 125pt;
+}
+
+#down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#downimg{
+    max-width: 40pt;
+}
+
+.divider{
+    height: 20pt;
+}
+
 #main{
     display: flex;
     justify-content: center;
+}
+
+#section2{
+    background-color: #E6E6E6;
 }
 
 
