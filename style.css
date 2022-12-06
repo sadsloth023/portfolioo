@@ -1,0 +1,192 @@
+body{
+    font-family: Montserrat, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    font-weight: bold;
+}
+
+
+
+#sloth{
+    max-width: 15%;
+    max-height: 15%;
+}
+
+#slothcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 2% 0% 1%;
+}
+
+#intro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0% 25% 0%;
+}
+
+.subheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: 	#888888;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.subtext{
+    margin: 1%;
+    padding: 0%;
+    border: 0%;
+    font-style: italic;
+}
+
+h1{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+
+#gridd{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows:  400px 400px;
+    grid-column-gap: 50px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#box2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#box3{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#box4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.portimg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#iterative2{
+    display: none;
+    max-width: 100%;
+}
+
+#redesign2{
+    display: none;
+    max-width: 100%;
+}
+
+#personas2{
+    display: none;
+    max-width: 100%;
+}
+
+#paper2{
+    display: none;
+    max-width: 100%;
+}
+
+#box1:hover #iterative2{
+    display: block;
+}
+
+#box1:hover #iterative1{
+    display: none;
+}
+
+#box2:hover #redesign2{
+    display: block;
+}
+
+#box2:hover #redesign1{
+    display: none;
+}
+
+#box3:hover #personas2{
+    display: block;
+}
+
+#box3:hover #personas1{
+    display: none;
+}
+
+#box4:hover #paper2{
+    display: block;
+}
+
+#box4:hover #paper1{
+    display: none;
+}
+
+#main2{
+    display: flex;
+    justify-content: center;
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows:  400px 400px;
+    grid-column-gap: 50px;
+}
+
+#box21{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#box22{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#box23{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#box24{
+    grid-column: 2;
+    grid-row: 2;
+}
+
