@@ -1,0 +1,54 @@
+
+body{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.25;
+    padding: 3% 15%;
+}
+
+#topicon{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#sloth{
+    max-width: 75pt;
+    max-height: auto; 
+    padding: 0;
+    margin: 0;
+}
+
+#icontext{
+    align-items: left;
+    padding: 0 10pt 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#username{
+    color: black;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#navback{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #888888;
+}
+
+#topicon:hover{
+    text-shadow: 2px 4px 2px #A1B8CE;
+}
+
+h4{
+    font-style: italic;
+    font-weight: bolder;
+}

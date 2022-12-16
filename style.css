@@ -189,11 +189,11 @@ h1{
     max-width: 100%;
 }
 
-#box1:hover #iterative2{
+#box1:hover #personas2{
     display: block;
 }
 
-#box1:hover #iterative1{
+#box1:hover #personas1{
     display: none;
 }
 
@@ -205,11 +205,11 @@ h1{
     display: none;
 }
 
-#box3:hover #personas2{
+#box3:hover #iterative2{
     display: block;
 }
 
-#box3:hover #personas1{
+#box3:hover #iterative1{
     display: none;
 }
 
